@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test_Package.TC_15_Add_all_items_problemuser">
+        <methods>
+          <include name="_Add_all_items_problemuser"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_15_Add_all_items_problemuser -->
+      <class name="Test_Package.TC_05_Login_with_Wrong_UserName_and_Password">
+        <methods>
+          <include name="Login_with_Wrong_UserName_and_Password"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_05_Login_with_Wrong_UserName_and_Password -->
+      <class name="Test_Package.TC_23_Information_Page_Enter_Details_Performance">
+        <methods>
+          <include name="Information_Page_Enter_Details"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_23_Information_Page_Enter_Details_Performance -->
+      <class name="Test_Package.TC_06_Login_with_UserName_and_Wrong_Password">
+        <methods>
+          <include name="initdriver"/>
+          <include name="Login_with_Wrong_UserName_and_Password"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_06_Login_with_UserName_and_Wrong_Password -->
+      <class name="Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser">
+        <methods>
+          <include name="Sort_the_products_in_price_low_to_high_order"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser -->
+      <class name="Test_Package.TC_03_Login_with_UserName_and_Blank_Password2">
+        <methods>
+          <include name="Login_with_UserName_and_Blank_Password"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_03_Login_with_UserName_and_Blank_Password2 -->
+      <class name="Test_Package.TC_20_Add_all_items_Performance">
+        <methods>
+          <include name="Add_all_items"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_20_Add_all_items_Performance -->
+      <class name="Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password">
+        <methods>
+          <include name="Login_with_valid_UserName_and_Valid_Password"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password -->
+      <class name="Test_Package.TC_22_Checkout_button_Performance">
+        <methods>
+          <include name="add_all_items"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_22_Checkout_button_Performance -->
+      <class name="Test_Package.TC_21_remove_items_that_have_a_price_less_Performance">
+        <methods>
+          <include name="add_all_items"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_21_remove_items_that_have_a_price_less_Performance -->
+      <class name="Test_Package.TC_17_Checkout_button_problemuser">
+        <methods>
+          <include name="Checkout_button_problemuser"/>
+          <include name="initdriver"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Test_Package.TC_17_Checkout_button_problemuser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

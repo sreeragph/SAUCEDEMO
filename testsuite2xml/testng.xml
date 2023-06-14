@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Test_Package.TC_13_Login_with_problem_user"/>
+      <class name="Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser"/>
+       <class name="Test_Package.TC_15_Add_all_items_problemuser"/>
+        <class name="Test_Package.TC_16_remove_items_that_have_a_price_less"/>
+         <class name="Test_Package.TC_17_Checkout_button_problemuser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password"/>
+      <class name="Test_Package.TC_08_Sort_the_products_in_price_low_to_high_order"/>
+       <class name="Test_Package.TC_09_Add_all_items"/>
+        <class name="Test_Package.TC_11_Checkout_button"/> 
+         <class name="Test_Package.TC_12_Information_Page_Enter_Details"/> 
+         
+          
+        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+   
+     <class name="Test_Package.TC_01_Login_with_Blank_UserName_and_Blank_Password"/>
+      <class name="Test_Package.TC_02_Login_with_Blank_UserName_and_Password"/>
+      <class name="Test_Package.TC_03_Login_with_UserName_and_Blank_Password2"/>
+      <class name="Test_Package.TC_04_Login_with_Wrong_UserName_and_Wrong_Password"/>
+      <class name="Test_Package.TC_05_Login_with_Wrong_UserName_and_Password"/>
+      <class name="Test_Package.TC_06_Login_with_UserName_and_Wrong_Password"/>
+      
+      <class name="Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password"/>
+       <class name="Test_Package.TC_08_Sort_the_products_in_price_low_to_high_order"/>
+        <class name="Test_Package.TC_09_Add_all_items"/>
+      <class name="Test_Package.TC_10_remove_items_that_have_a_price_less"/>
+       <class name="Test_Package.TC_11_Checkout_button"/>
+      <class name="Test_Package.TC_12_Information_Page_Enter_Details"/>
+       <class name="Test_Package.TC_06_1_Login_with_Locked_UserName"/>
+      <class name="Test_Package.TC_13_Login_with_problem_user"/>
+       <class name="Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser"/>
+        <class name="Test_Package.TC_15_Add_all_items_problemuser"/>
+      <class name="Test_Package.TC_16_remove_items_that_have_a_price_less"/>
+     
+       <class name="Test_Package.TC_17_Checkout_button_problemuser"/>
+    
+      <class name="Test_Package.TC_18_Login_with_performance_glitch_user"/>
+
+      <class name="Test_Package.TC_19_Sort_the_products_in_price_low_to_high_order_perfromance"/>
+      <class name="Test_Package.TC_20_Add_all_items_Performance"/>
+        <class name="Test_Package.TC_21_remove_items_that_have_a_price_less_Performance"/>
+      <class name="Test_Package.TC_22_Checkout_button_Performance"/>
+         <class name="Test_Package.TC_23_Information_Page_Enter_Details_Performance"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

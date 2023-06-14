@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\sreeragph\eclipse-workspace\SAUCE_DEMO\TEST_SUITES\Suite_1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 11 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_20_Add_all_items_Performance" class="method navigator-link" hash-for-method="Add_all_items">Add_all_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_17_Checkout_button_problemuser" class="method navigator-link" hash-for-method="Checkout_button_problemuser">Checkout_button_problemuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_23_Information_Page_Enter_Details_Performance" class="method navigator-link" hash-for-method="Information_Page_Enter_Details">Information_Page_Enter_Details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_03_Login_with_UserName_and_Blank_Password2" class="method navigator-link" hash-for-method="Login_with_UserName_and_Blank_Password">Login_with_UserName_and_Blank_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_05_Login_with_Wrong_UserName_and_Password" class="method navigator-link" hash-for-method="Login_with_Wrong_UserName_and_Password">Login_with_Wrong_UserName_and_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_06_Login_with_UserName_and_Wrong_Password" class="method navigator-link" hash-for-method="Login_with_Wrong_UserName_and_Password">Login_with_Wrong_UserName_and_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password" class="method navigator-link" hash-for-method="Login_with_valid_UserName_and_Valid_Password">Login_with_valid_UserName_and_Valid_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser" class="method navigator-link" hash-for-method="Sort_the_products_in_price_low_to_high_order">Sort_the_products_in_price_low_to_high_order</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_15_Add_all_items_problemuser" class="method navigator-link" hash-for-method="_Add_all_items_problemuser">_Add_all_items_problemuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_22_Checkout_button_Performance" class="method navigator-link" hash-for-method="add_all_items">add_all_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_21_remove_items_that_have_a_price_less_Performance" class="method navigator-link" hash-for-method="add_all_items">add_all_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_09_Add_all_items" class="method navigator-link" hash-for-method="Add_all_items">Add_all_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_12_Information_Page_Enter_Details" class="method navigator-link" hash-for-method="Information_Page_Enter_Details">Information_Page_Enter_Details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_02_Login_with_Blank_UserName_and_Password" class="method navigator-link" hash-for-method="Login_with_Blank_UserName_and_Blank_Password">Login_with_Blank_UserName_and_Blank_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_01_Login_with_Blank_UserName_and_Blank_Password" class="method navigator-link" hash-for-method="Login_with_Blank_UserName_and_Blank_Password">Login_with_Blank_UserName_and_Blank_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_06_1_Login_with_Locked_UserName" class="method navigator-link" hash-for-method="Login_with_Locked_UserName">Login_with_Locked_UserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_04_Login_with_Wrong_UserName_and_Wrong_Password" class="method navigator-link" hash-for-method="Login_with_Wrong_UserName_and_Wrong_Password">Login_with_Wrong_UserName_and_Wrong_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_13_Login_with_problem_user" class="method navigator-link" hash-for-method="Login_with_valid_UserName_and_Valid_Password">Login_with_valid_UserName_and_Valid_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_18_Login_with_performance_glitch_user" class="method navigator-link" hash-for-method="Login_with_valid_UserName_and_Valid_Password">Login_with_valid_UserName_and_Valid_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_08_Sort_the_products_in_price_low_to_high_order" class="method navigator-link" hash-for-method="Sort_the_products_in_price_low_to_high_order">Sort_the_products_in_price_low_to_high_order</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_19_Sort_the_products_in_price_low_to_high_order_perfromance" class="method navigator-link" hash-for-method="Sort_the_products_in_price_low_to_high_order_perfromance">Sort_the_products_in_price_low_to_high_order_perfromance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_11_Checkout_button" class="method navigator-link" hash-for-method="add_all_items">add_all_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_10_remove_items_that_have_a_price_less" class="method navigator-link" hash-for-method="add_all_items">add_all_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test_Package.TC_16_remove_items_that_have_a_price_less" class="method navigator-link" hash-for-method="remove_items_that_have_a_price_less">remove_items_that_have_a_price_less</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_15_Add_all_items_problemuser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="_Add_all_items_problemuser">
+                  </a> <!-- _Add_all_items_problemuser -->
+                  <span class="method-name">_Add_all_items_problemuser</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at Test_Package.TC_15_Add_all_items_problemuser._Add_all_items_problemuser(TC_15_Add_all_items_problemuser.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_05_Login_with_Wrong_UserName_and_Password</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_Wrong_UserName_and_Password">
+                  </a> <!-- Login_with_Wrong_UserName_and_Password -->
+                  <span class="method-name">Login_with_Wrong_UserName_and_Password</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at Test_Package.TC_05_Login_with_Wrong_UserName_and_Password.Login_with_Wrong_UserName_and_Password(TC_05_Login_with_Wrong_UserName_and_Password.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_06_Login_with_UserName_and_Wrong_Password</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_Wrong_UserName_and_Password">
+                  </a> <!-- Login_with_Wrong_UserName_and_Password -->
+                  <span class="method-name">Login_with_Wrong_UserName_and_Password</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[@data-test=&apos;error&apos;]&quot;}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPWINX-DAC94&apos;, ip: &apos;192.168.18.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SREERA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03d83cfb5b31d3f692784bb674522754
+*** Element info: {Using=xpath, value=//h3[@data-test=&apos;error&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
+	at Test_Package.TC_06_Login_with_UserName_and_Wrong_Password.Login_with_Wrong_UserName_and_Password(TC_06_Login_with_UserName_and_Wrong_Password.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_23_Information_Page_Enter_Details_Performance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Information_Page_Enter_Details">
+                  </a> <!-- Information_Page_Enter_Details -->
+                  <span class="method-name">Information_Page_Enter_Details</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //button[@name=&apos;finish&apos;]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Test_Package.TC_23_Information_Page_Enter_Details_Performance.Information_Page_Enter_Details(TC_23_Information_Page_Enter_Details_Performance.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@name=&apos;finish&apos;]&quot;}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPWINX-DAC94&apos;, ip: &apos;192.168.18.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SREERA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03d83cfb5b31d3f692784bb674522754
+*** Element info: {Using=xpath, value=//button[@name=&apos;finish&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 29 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sort_the_products_in_price_low_to_high_order">
+                  </a> <!-- Sort_the_products_in_price_low_to_high_order -->
+                  <span class="method-name">Sort_the_products_in_price_low_to_high_order</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser.Sort_the_products_in_price_low_to_high_order(TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_03_Login_with_UserName_and_Blank_Password2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_UserName_and_Blank_Password">
+                  </a> <!-- Login_with_UserName_and_Blank_Password -->
+                  <span class="method-name">Login_with_UserName_and_Blank_Password</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at Test_Package.TC_03_Login_with_UserName_and_Blank_Password2.Login_with_UserName_and_Blank_Password(TC_03_Login_with_UserName_and_Blank_Password2.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_20_Add_all_items_Performance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_all_items">
+                  </a> <!-- Add_all_items -->
+                  <span class="method-name">Add_all_items</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at Test_Package.TC_20_Add_all_items_Performance.Add_all_items(TC_20_Add_all_items_Performance.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_valid_UserName_and_Valid_Password">
+                  </a> <!-- Login_with_valid_UserName_and_Valid_Password -->
+                  <span class="method-name">Login_with_valid_UserName_and_Valid_Password</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;user-name&apos;]&quot;}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPWINX-DAC94&apos;, ip: &apos;192.168.18.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SREERA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03d83cfb5b31d3f692784bb674522754
+*** Element info: {Using=xpath, value=//input[@name=&apos;user-name&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.clear(Unknown Source)
+	at Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password.Login_with_valid_UserName_and_Valid_Password(TC_07_Login_with_valid_UserName_and_Valid_Password.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_22_Checkout_button_Performance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_all_items">
+                  </a> <!-- add_all_items -->
+                  <span class="method-name">add_all_items</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@name=&apos;checkout&apos;]&quot;}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPWINX-DAC94&apos;, ip: &apos;192.168.18.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SREERA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03d83cfb5b31d3f692784bb674522754
+*** Element info: {Using=xpath, value=//button[@name=&apos;checkout&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at Test_Package.TC_22_Checkout_button_Performance.add_all_items(TC_22_Checkout_button_Performance.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_21_remove_items_that_have_a_price_less_Performance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_all_items">
+                  </a> <!-- add_all_items -->
+                  <span class="method-name">add_all_items</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.get(Unknown Source)
+	at Test_Package.TC_21_remove_items_that_have_a_price_less_Performance.add_all_items(TC_21_remove_items_that_have_a_price_less_Performance.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Package.TC_17_Checkout_button_problemuser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout_button_problemuser">
+                  </a> <!-- Checkout_button_problemuser -->
+                  <span class="method-name">Checkout_button_problemuser</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at Test_Package.TC_17_Checkout_button_problemuser.Checkout_button_problemuser(TC_17_Checkout_button_problemuser.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_08_Sort_the_products_in_price_low_to_high_order</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sort_the_products_in_price_low_to_high_order">
+                  </a> <!-- Sort_the_products_in_price_low_to_high_order -->
+                  <span class="method-name">Sort_the_products_in_price_low_to_high_order</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_04_Login_with_Wrong_UserName_and_Wrong_Password</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_Wrong_UserName_and_Wrong_Password">
+                  </a> <!-- Login_with_Wrong_UserName_and_Wrong_Password -->
+                  <span class="method-name">Login_with_Wrong_UserName_and_Wrong_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_11_Checkout_button</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_all_items">
+                  </a> <!-- add_all_items -->
+                  <span class="method-name">add_all_items</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_01_Login_with_Blank_UserName_and_Blank_Password</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_Blank_UserName_and_Blank_Password">
+                  </a> <!-- Login_with_Blank_UserName_and_Blank_Password -->
+                  <span class="method-name">Login_with_Blank_UserName_and_Blank_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_09_Add_all_items</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_all_items">
+                  </a> <!-- Add_all_items -->
+                  <span class="method-name">Add_all_items</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_16_remove_items_that_have_a_price_less</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="remove_items_that_have_a_price_less">
+                  </a> <!-- remove_items_that_have_a_price_less -->
+                  <span class="method-name">remove_items_that_have_a_price_less</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_13_Login_with_problem_user</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_valid_UserName_and_Valid_Password">
+                  </a> <!-- Login_with_valid_UserName_and_Valid_Password -->
+                  <span class="method-name">Login_with_valid_UserName_and_Valid_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_18_Login_with_performance_glitch_user</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_valid_UserName_and_Valid_Password">
+                  </a> <!-- Login_with_valid_UserName_and_Valid_Password -->
+                  <span class="method-name">Login_with_valid_UserName_and_Valid_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_12_Information_Page_Enter_Details</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Information_Page_Enter_Details">
+                  </a> <!-- Information_Page_Enter_Details -->
+                  <span class="method-name">Information_Page_Enter_Details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_10_remove_items_that_have_a_price_less</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_all_items">
+                  </a> <!-- add_all_items -->
+                  <span class="method-name">add_all_items</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_02_Login_with_Blank_UserName_and_Password</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_Blank_UserName_and_Blank_Password">
+                  </a> <!-- Login_with_Blank_UserName_and_Blank_Password -->
+                  <span class="method-name">Login_with_Blank_UserName_and_Blank_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_06_1_Login_with_Locked_UserName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_Locked_UserName">
+                  </a> <!-- Login_with_Locked_UserName -->
+                  <span class="method-name">Login_with_Locked_UserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Package.TC_19_Sort_the_products_in_price_low_to_high_order_perfromance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sort_the_products_in_price_low_to_high_order_perfromance">
+                  </a> <!-- Sort_the_products_in_price_low_to_high_order_perfromance -->
+                  <span class="method-name">Sort_the_products_in_price_low_to_high_order_perfromance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sreeragph\eclipse-workspace\SAUCE_DEMO\TEST_SUITES\Suite_1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test_Package.TC_01_Login_with_Blank_UserName_and_Blank_Password&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_02_Login_with_Blank_UserName_and_Password&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_03_Login_with_UserName_and_Blank_Password2&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_04_Login_with_Wrong_UserName_and_Wrong_Password&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_05_Login_with_Wrong_UserName_and_Password&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_06_Login_with_UserName_and_Wrong_Password&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_08_Sort_the_products_in_price_low_to_high_order&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_09_Add_all_items&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_10_remove_items_that_have_a_price_less&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_11_Checkout_button&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_12_Information_Page_Enter_Details&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_06_1_Login_with_Locked_UserName&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_13_Login_with_problem_user&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_15_Add_all_items_problemuser&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_16_remove_items_that_have_a_price_less&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_17_Checkout_button_problemuser&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_18_Login_with_performance_glitch_user&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_19_Sort_the_products_in_price_low_to_high_order_perfromance&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_20_Add_all_items_Performance&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_21_remove_items_that_have_a_price_less_Performance&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_22_Checkout_button_Performance&quot;/&gt;
+      &lt;class name=&quot;Test_Package.TC_23_Information_Page_Enter_Details_Performance&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (24 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Information_Page_Enter_Details')
+data.setCell(0, 2, 'Test_Package.TC_23_Information_Page_Enter_Details_Performance')
+data.setCell(0, 3, 60121);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login_with_Wrong_UserName_and_Password')
+data.setCell(1, 2, 'Test_Package.TC_06_Login_with_UserName_and_Wrong_Password')
+data.setCell(1, 3, 30833);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Login_with_valid_UserName_and_Valid_Password')
+data.setCell(2, 2, 'Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password')
+data.setCell(2, 3, 30111);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'add_all_items')
+data.setCell(3, 2, 'Test_Package.TC_21_remove_items_that_have_a_price_less_Performance')
+data.setCell(3, 3, 30108);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'add_all_items')
+data.setCell(4, 2, 'Test_Package.TC_22_Checkout_button_Performance')
+data.setCell(4, 3, 30078);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Sort_the_products_in_price_low_to_high_order_perfromance')
+data.setCell(5, 2, 'Test_Package.TC_19_Sort_the_products_in_price_low_to_high_order_perfromance')
+data.setCell(5, 3, 8506);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Login_with_valid_UserName_and_Valid_Password')
+data.setCell(6, 2, 'Test_Package.TC_18_Login_with_performance_glitch_user')
+data.setCell(6, 3, 5708);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Sort_the_products_in_price_low_to_high_order')
+data.setCell(7, 2, 'Test_Package.TC_08_Sort_the_products_in_price_low_to_high_order')
+data.setCell(7, 3, 3619);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Sort_the_products_in_price_low_to_high_order')
+data.setCell(8, 2, 'Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser')
+data.setCell(8, 3, 3429);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Login_with_Blank_UserName_and_Blank_Password')
+data.setCell(9, 2, 'Test_Package.TC_01_Login_with_Blank_UserName_and_Blank_Password')
+data.setCell(9, 3, 2847);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'add_all_items')
+data.setCell(10, 2, 'Test_Package.TC_11_Checkout_button')
+data.setCell(10, 3, 1902);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Checkout_button_problemuser')
+data.setCell(11, 2, 'Test_Package.TC_17_Checkout_button_problemuser')
+data.setCell(11, 3, 1485);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Add_all_items')
+data.setCell(12, 2, 'Test_Package.TC_09_Add_all_items')
+data.setCell(12, 3, 1129);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Add_all_items')
+data.setCell(13, 2, 'Test_Package.TC_20_Add_all_items_Performance')
+data.setCell(13, 3, 791);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Login_with_UserName_and_Blank_Password')
+data.setCell(14, 2, 'Test_Package.TC_03_Login_with_UserName_and_Blank_Password2')
+data.setCell(14, 3, 727);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Login_with_Wrong_UserName_and_Wrong_Password')
+data.setCell(15, 2, 'Test_Package.TC_04_Login_with_Wrong_UserName_and_Wrong_Password')
+data.setCell(15, 3, 714);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, '_Add_all_items_problemuser')
+data.setCell(16, 2, 'Test_Package.TC_15_Add_all_items_problemuser')
+data.setCell(16, 3, 664);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Login_with_valid_UserName_and_Valid_Password')
+data.setCell(17, 2, 'Test_Package.TC_13_Login_with_problem_user')
+data.setCell(17, 3, 643);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Login_with_Wrong_UserName_and_Password')
+data.setCell(18, 2, 'Test_Package.TC_05_Login_with_Wrong_UserName_and_Password')
+data.setCell(18, 3, 633);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Login_with_Blank_UserName_and_Blank_Password')
+data.setCell(19, 2, 'Test_Package.TC_02_Login_with_Blank_UserName_and_Password')
+data.setCell(19, 3, 616);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Login_with_Locked_UserName')
+data.setCell(20, 2, 'Test_Package.TC_06_1_Login_with_Locked_UserName')
+data.setCell(20, 3, 582);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Information_Page_Enter_Details')
+data.setCell(21, 2, 'Test_Package.TC_12_Information_Page_Enter_Details')
+data.setCell(21, 3, 495);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'remove_items_that_have_a_price_less')
+data.setCell(22, 2, 'Test_Package.TC_16_remove_items_that_have_a_price_less')
+data.setCell(22, 3, 345);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'add_all_items')
+data.setCell(23, 2, 'Test_Package.TC_10_remove_items_that_have_a_price_less')
+data.setCell(23, 3, 318);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">46 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_15_Add_all_items_problemuser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_08_Sort_the_products_in_price_low_to_high_order</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_05_Login_with_Wrong_UserName_and_Password</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_04_Login_with_Wrong_UserName_and_Wrong_Password</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_11_Checkout_button</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_21_remove_items_that_have_a_price_less_Performance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_09_Add_all_items</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_16_remove_items_that_have_a_price_less</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_13_Login_with_problem_user</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_23_Information_Page_Enter_Details_Performance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_06_Login_with_UserName_and_Wrong_Password</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_03_Login_with_UserName_and_Blank_Password2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_20_Add_all_items_Performance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_18_Login_with_performance_glitch_user</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_12_Information_Page_Enter_Details</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_10_remove_items_that_have_a_price_less</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_02_Login_with_Blank_UserName_and_Password</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_06_1_Login_with_Locked_UserName</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_22_Checkout_button_Performance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_17_Checkout_button_problemuser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test_Package.TC_19_Sort_the_products_in_price_low_to_high_order_perfromance</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initdriver</span>
+                <br/>
+                <span class="ignored-method-name">driverclose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_01_Login_with_Blank_UserName_and_Blank_Password</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initdriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">Login_with_Blank_UserName_and_Blank_Password</span>
+                <span class="method-start">4896 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_02_Login_with_Blank_UserName_and_Password</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login_with_Blank_UserName_and_Blank_Password</span>
+                <span class="method-start">7759 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_03_Login_with_UserName_and_Blank_Password2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login_with_UserName_and_Blank_Password</span>
+                <span class="method-start">8382 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_04_Login_with_Wrong_UserName_and_Wrong_Password</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login_with_Wrong_UserName_and_Wrong_Password</span>
+                <span class="method-start">9114 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_05_Login_with_Wrong_UserName_and_Password</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login_with_Wrong_UserName_and_Password</span>
+                <span class="method-start">9831 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_06_Login_with_UserName_and_Wrong_Password</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login_with_Wrong_UserName_and_Password</span>
+                <span class="method-start">10467 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_07_Login_with_valid_UserName_and_Valid_Password</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login_with_valid_UserName_and_Valid_Password</span>
+                <span class="method-start">41307 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_08_Sort_the_products_in_price_low_to_high_order</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Sort_the_products_in_price_low_to_high_order</span>
+                <span class="method-start">71422 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_09_Add_all_items</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Add_all_items</span>
+                <span class="method-start">75045 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_10_remove_items_that_have_a_price_less</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">add_all_items</span>
+                <span class="method-start">76176 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_11_Checkout_button</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">add_all_items</span>
+                <span class="method-start">76497 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_12_Information_Page_Enter_Details</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Information_Page_Enter_Details</span>
+                <span class="method-start">78401 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_06_1_Login_with_Locked_UserName</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login_with_Locked_UserName</span>
+                <span class="method-start">78898 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_13_Login_with_problem_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login_with_valid_UserName_and_Valid_Password</span>
+                <span class="method-start">79483 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_14_Sort_the_products_in_price_low_to_high_order_Problemuser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Sort_the_products_in_price_low_to_high_order</span>
+                <span class="method-start">80129 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_15_Add_all_items_problemuser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">_Add_all_items_problemuser</span>
+                <span class="method-start">83561 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_16_remove_items_that_have_a_price_less</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">remove_items_that_have_a_price_less</span>
+                <span class="method-start">84227 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_17_Checkout_button_problemuser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Checkout_button_problemuser</span>
+                <span class="method-start">84574 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_18_Login_with_performance_glitch_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login_with_valid_UserName_and_Valid_Password</span>
+                <span class="method-start">86061 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_19_Sort_the_products_in_price_low_to_high_order_perfromance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Sort_the_products_in_price_low_to_high_order_perfromance</span>
+                <span class="method-start">91771 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_20_Add_all_items_Performance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_all_items</span>
+                <span class="method-start">100279 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_21_remove_items_that_have_a_price_less_Performance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add_all_items</span>
+                <span class="method-start">101073 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_22_Checkout_button_Performance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add_all_items</span>
+                <span class="method-start">131184 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_23_Information_Page_Enter_Details_Performance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Information_Page_Enter_Details</span>
+                <span class="method-start">161266 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test_Package.TC_01_Login_with_Blank_UserName_and_Blank_Password</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">221490 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
